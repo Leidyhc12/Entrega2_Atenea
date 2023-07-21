@@ -1,0 +1,62 @@
+.formStep1{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 90%;
+    justify-content: space-around;
+}
+
+
+.formStep1 section{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    /* background-color: red; */
+    gap: 30px;
+}
+
+.formStep1 section article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 100px; */
+    width: 100%;
+    position: relative;
+}
+
+.formStep1 section article input{
+    border-radius: 10px;
+    border-style: none;
+    height: 30px;
+    /* flex: 1.5; */
+    background: rgba(224, 204, 234, 0.25);
+    font-weight: 500;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.formStep1 section article select{
+    border-radius: 10px;
+    border-style: none;
+    height: 30px;
+    /* width: 177px; */
+    background: rgba(224, 204, 234, 0.25);
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+
+
+.formStep1 section article label span{
+    color: red;
+}
+
+
+.formStep1 .sec2Form1 .art1Sec2Form1 input{
+    min-width: 100%;
+}
+
+.formStep1 .sec3Form1 .art1Sec3Form1{
+    width: 10%;
+}
+

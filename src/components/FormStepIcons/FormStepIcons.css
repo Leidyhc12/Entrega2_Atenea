@@ -1,0 +1,14 @@
+.formSteps{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.step-wizard-list{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    align-items: flex-start;
+}

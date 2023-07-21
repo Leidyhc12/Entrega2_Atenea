@@ -1,0 +1,62 @@
+.divResume{
+    width: 100%;
+    max-height: 350px;
+    /* height: auto; */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    /* align-items: center; */
+}
+
+.divResume section table{
+    display: flex;
+}
+
+.divResume section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divResume section h3{
+    color: rgba(143, 89, 168, 0.88);
+}
+
+.divResume section table tbody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: red; */
+    /* gap: 5px; */
+}
+
+.divResume section table tbody tr{
+    display: flex;
+    /* border-bottom: 1px solid black; */
+    gap: 30px;
+    padding: 5px 10px;
+    /* justify-content: space-between; */
+}
+
+.divResume section table tbody tr td{
+    width: 50%;
+}
+
+.divResume section table tbody tr td:nth-child(1){
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.683);
+}
+.divResume section table tbody tr td:nth-child(2){
+    color: rgba(100, 53, 122, 0.88);;
+    font-weight: 500;
+}
+.divResume section table tbody tr:nth-child(odd){
+  background-color: #dafffbaf;
+}
+.divResume section table tbody tr:nth-child(2n){
+    /* background-color: lightskyblue; */
+  }
